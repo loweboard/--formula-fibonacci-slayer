@@ -1,4 +1,4 @@
-/* main.cpp - fibonacci without temporary variable
+/* app.cpp --formula-fibonacci-slayer 
  * Copyright (C) 2015 LOWE, SAAU-LOON <224428@gmail.com>
  * 
  * This program is free software: you can redistribute it and/or modify
@@ -13,15 +13,13 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * 
 */ 
-#include <iostream>
-
+#include <stdio.h>
 int n = 20;
 int f1 =1 , f2=2;
-int main(int argc, char* argv[])
-{
-  for (int i = 1; i < n; i++)
-  {
-    f2 += f1 = f2-f1;
-    std::cout << f1 << std::endl;
-  }
+void main() {
+    for (int i = 1; i < n; i++)
+    {
+        f2 += f1 = f2-f1;
+        printf("%d", f1);
+    }
 }

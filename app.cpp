@@ -15,12 +15,12 @@
 */ 
 #include <stdio.h>
 int n = 20;
-int f1 =1 , f2=2;
+int f1 = 1, f2 = 2;
 void main()
 {
     for (int i = 1; i < n; i++)
     {
-        f2 += f1 = f2-f1;
+        f2 += f1 = f2 - f1;
         printf("%d", f1);
     }
 }

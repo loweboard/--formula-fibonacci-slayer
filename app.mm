@@ -23,7 +23,8 @@ void main (int argc, const char * argv[])
     NSInteger f2 = 2;
     int z = 1;
     int x = 20;
-    typedef enum GameOption {
+    typedef enum GameOption
+    {
         argv2 = 2,
         argv3 = 3,
         argv4 = 4,        

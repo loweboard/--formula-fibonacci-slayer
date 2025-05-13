@@ -38,7 +38,7 @@ void main (int argc, const char * argv[])
     {
         l1, l2,
         r1, r2,
-    } trigger;    
+    } trigger;
     typedef enum GameOption
     {
         argv2 = 2,

@@ -26,6 +26,19 @@ void main (int argc, const char * argv[])
     NSString *hr = "--------------------------------------------------------";
     int z = 1;
     int x = 20;
+    typedef enum axis
+    {
+        x, y
+    } axis;
+    typedef enum dpad
+    {
+        a, b, x, y,
+    } dpad;
+    typedef enum trigger
+    {
+        l1, l2,
+        r1, r2,
+    } trigger;    
     typedef enum GameOption
     {
         argv2 = 2,

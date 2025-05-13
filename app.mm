@@ -21,6 +21,7 @@ void main (int argc, const char * argv[])
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
     NSInteger f1 = 1;
     NSInteger f2 = 2;
+    NSString *hr = "--------------------------------------------------------"
     int z = 1;
     int x = 20;
     typedef enum GameOption
@@ -33,7 +34,7 @@ void main (int argc, const char * argv[])
     do
     {
         f2 += f1 = f2 - f1;
-        fprintf(stdout, "%d--", (int)f1);
+        fprintf(stdout, "%d%0.2s", (int)f1, hr);
         z++;
     } while (z <= x);
     [pool drain];

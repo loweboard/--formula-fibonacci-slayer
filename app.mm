@@ -1,6 +1,7 @@
 >>>clang app.mm -fobjc-arc -fmodules -mmacosx-version-min=10.7 -o app
 /*
- * app.cpp --formula-fibonacci-slayer 
+ * [BANK] app.mm
+ * [ARGV] --formula-fibonacci-slayer 
  * Copyright (C) 2012-2015 LOWE, SAAU-LOON <224428@gmail.com>
  * 
  * This program is free software: you can redistribute it and/or modify
